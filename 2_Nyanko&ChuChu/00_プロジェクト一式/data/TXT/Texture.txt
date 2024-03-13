@@ -1,0 +1,37 @@
+#===========================================================
+#
+# テクスチャの情報 [Texture.txt]
+# Author : 小原立暉
+#
+#===========================================================
+
+# テクスチャの情報
+TEXTURE = data\TEXTURE\Balloon.png			# ふきだし
+TEXTURE = data\TEXTURE\Dstr001.png			# 撃破(トゲトゲ)
+TEXTURE = data\TEXTURE\Dstr002.png			# 撃破(フワフワ)
+TEXTURE = data\TEXTURE\Dstr003.png			# 撃破(爆発)
+TEXTURE = data\TEXTURE\explosion000.png		# 爆発
+TEXTURE = data\TEXTURE\HelpMessage.png		# 救助メッセージ
+TEXTURE = data\TEXTURE\NewRecord.png		# 新記録
+TEXTURE = data\TEXTURE\Number.png			# 番号
+TEXTURE = data\TEXTURE\Obalab.png			# オバラボマーク
+TEXTURE = data\TEXTURE\PAUSE_Choicebar.png	# ポーズのセレクトアイコン
+TEXTURE = data\TEXTURE\PAUSE_menu.png		# ポーズのメニュー
+TEXTURE = data\TEXTURE\PAUSE_Reset.png		# ポーズのリセット
+TEXTURE = data\TEXTURE\PAUSE_return.png		# ポーズのゲームに戻る
+TEXTURE = data\TEXTURE\PAUSE_title.png		# ポーズのタイトル
+TEXTURE = data\TEXTURE\PlayerID.png			# プレイヤーのID
+TEXTURE = data\TEXTURE\Rank.png				# 順位
+TEXTURE = data\TEXTURE\RankingWord.png		# ランキングの文字
+TEXTURE = data\TEXTURE\SkyBox.jpg			# スカイボックス
+TEXTURE = data\TEXTURE\time_koron.png		# タイムのコロン
+TEXTURE = data\TEXTURE\TimeNumber.png		# タイムの数字
+
+# エフェクト系
+TEXTURE = data\TEXTURE\Dust.tga				# 埃
+TEXTURE = data\TEXTURE\effect000.jpg		# エフェクト
+TEXTURE = data\TEXTURE\PopSmoke.tga			# ポップな煙
+TEXTURE = data\TEXTURE\shadow.jpg			# 影
+TEXTURE = data\TEXTURE\SpeedEffect.tga		# スピードエフェクト
+TEXTURE = data\TEXTURE\smoke.tga			# 煙
+TEXTURE = data\TEXTURE\Rupture.tga			# 破裂

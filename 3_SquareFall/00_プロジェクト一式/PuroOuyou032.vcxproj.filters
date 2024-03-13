@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\99_system">
+      <UniqueIdentifier>{2e8c3a3a-4ff8-46be-83f1-c2ee220f9800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\99_system">
+      <UniqueIdentifier>{d2b18a41-116c-481b-97be-9b08bd59c0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\01_Object">
+      <UniqueIdentifier>{22884efb-af1b-48b2-972f-e6b3b5a2db8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_management">
+      <UniqueIdentifier>{6ad41e93-bc38-4dd6-ad0e-ac85938e8cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\00_management">
+      <UniqueIdentifier>{5207a894-fdf1-4d29-b67c-ada12c18ae6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_2D">
+      <UniqueIdentifier>{1f46a37e-0d73-45e7-b90f-1d344b7b20d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\02_2D">
+      <UniqueIdentifier>{1a5bf7ab-4041-44af-a1d2-afaa68e592d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_3D">
+      <UniqueIdentifier>{161c4516-9882-4d86-be67-622e69cfd066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\03_3D">
+      <UniqueIdentifier>{0db7cf46-01f1-4488-8206-d31628cfd168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\04_BIllboard">
+      <UniqueIdentifier>{47604d61-c40e-4139-85ba-d27be4899620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\04_BIllboard">
+      <UniqueIdentifier>{87efb9aa-4189-48d0-ba28-1faca6db22d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_decoration">
+      <UniqueIdentifier>{8600e3da-1557-41dc-9e99-a3f864a04b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\05_decoration">
+      <UniqueIdentifier>{e97dcd72-1ec4-410f-b220-45de827d781d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Object">
+      <UniqueIdentifier>{bf9c3ad9-c9d0-4f5d-a828-8fa67b6ccfa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>ソース ファイル\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objectBillboard.cpp">
+      <Filter>ソース ファイル\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>ソース ファイル\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objectXtex.cpp">
+      <Filter>ソース ファイル\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="precompile.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="Xmodel.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="bosslevel.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="break_block3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="break_blockBillboard.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet3D.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugNumber3D.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\05_decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet3D.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GaugeBillboard.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelPoint3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeGauge.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeGaugeBillboard.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\05_decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="player3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="playerlevel.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTypeUI.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="comboUI.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="combo.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionParticle.cpp">
+      <Filter>ソース ファイル\05_decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBlock3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\05_decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeGround2D.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUP.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUPUI.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="map2D.cpp">
+      <Filter>ソース ファイル\99_system</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialUI.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SideBlock3D.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockUI.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Break.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPiece.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="FallEffect.cpp">
+      <Filter>ソース ファイル\04_BIllboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>ソース ファイル\00_management</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>ソース ファイル\02_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\05_decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUI.cpp">
+      <Filter>ソース ファイル\03_3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="object.h">
+      <Filter>ヘッダー ファイル\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>ヘッダー ファイル\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectBillboard.h">
+      <Filter>ヘッダー ファイル\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>ヘッダー ファイル\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectXtex.h">
+      <Filter>ヘッダー ファイル\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="precompile.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="Xmodel.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="bosslevel.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="break_blockBillboard.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="break_block3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet3D.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugNumber3D.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\05_decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet3D.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GaugeBillboard.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelPoint3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeGauge.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeGaugeBillboard.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル\05_decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="player3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="playerlevel.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTypeUI.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="comboUI.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="combo.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionParticle.h">
+      <Filter>ヘッダー ファイル\05_decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBlock3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\05_decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="ForeGround2D.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUPUI.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUP.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="map2D.h">
+      <Filter>ヘッダー ファイル\99_system</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialUI.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockUI.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SideBlock3D.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Break.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPiece.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="FallEffect.h">
+      <Filter>ヘッダー ファイル\04_BIllboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>ヘッダー ファイル\00_management</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>ヘッダー ファイル\02_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\05_decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUI.h">
+      <Filter>ヘッダー ファイル\03_3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
